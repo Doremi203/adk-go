@@ -1,0 +1,7 @@
+{
+  "error_details": "order not found",
+  "error_type": "*errors.errorString",
+  "reflection_guidance": "The call to tool `lookup_order` failed.\n\n**Error Details:**\n```\n*errors.errorString: order not found\n```\n\n**Tool Arguments Used:**\n```json\n{\n  \"order_id\": \"A-1\"\n}\n```\n\n**Reflection Guidance:**\nThis is retry attempt **1 of 2**. Analyze the error and the arguments you provided. Do not repeat the exact same call. Consider the following before your next attempt:\n\n1.  **Invalid Parameters**: Does the error suggest that one or more arguments are incorrect, badly formatted, or missing? Review the tool's schema and your arguments.\n2.  **State or Preconditions**: Did a previous step fail or not produce the necessary state/resource for this tool to succeed?\n3.  **Alternative Approach**: Is this the right tool for the job? Could another tool or a different sequence of steps achieve the goal?\n4.  **Simplify the Task**: Can you break the problem down into smaller, simpler steps?\n5.  **Wrong Function Name**: Does the error indicates the tool is not found? Please check again and only use available tools.\n\nFormulate a new plan based on your analysis and try a corrected or different approach.",
+  "response_type": "ERROR_HANDLED_BY_REFLECT_AND_RETRY_PLUGIN",
+  "retry_count": 1
+}

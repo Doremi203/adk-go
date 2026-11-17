@@ -1,0 +1,7 @@
+{
+  "error_details": "order not found",
+  "error_type": "*errors.errorString",
+  "reflection_guidance": "The tool `lookup_order` has failed consecutively 2 times and the retry limit has been exceeded.\n\n**Last Error:**\n```\n*errors.errorString: order not found\n```\n\n**Last Arguments Used:**\n```json\n{\n  \"order_id\": \"A-1\"\n}\n```\n\n**Final Instruction:**\n**Do not attempt to use the `lookup_order` tool again for this task.** You must now try a different approach. Acknowledge the failure and devise a new strategy, potentially using other available tools or informing the user that the task cannot be completed.",
+  "response_type": "ERROR_HANDLED_BY_REFLECT_AND_RETRY_PLUGIN",
+  "retry_count": 2
+}
