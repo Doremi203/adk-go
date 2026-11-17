@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.9.0](https://github.com/google/adk-go/compare/v2.8.0...v2.9.0) (2026-11-17)
+
+
+### Features
+
+* **tool/skilltoolset/skill/gcsskill:** add Cloud Storage skill source ([#2384](https://github.com/google/adk-go/issues/2384)) ([012af4d](https://github.com/google/adk-go/commit/012af4d94fb0ad67713180a4233d63c5fd520d1c))
+* **vertexairagtool:** expose RAG retrieval configuration ([#2324](https://github.com/google/adk-go/issues/2324)) ([b289e33](https://github.com/google/adk-go/commit/b289e334241085f59f76b096e8f0682f16f6e76b))
+
+
+### Bug Fixes
+
+* **live:** send tracking headers on live connections ([#2369](https://github.com/google/adk-go/issues/2369)) ([126ad4e](https://github.com/google/adk-go/commit/126ad4e816ca9ef1b6deb53adb766f30cb7c6303)), closes [#2365](https://github.com/google/adk-go/issues/2365)
+* **llminternal:** accept Unicode identifier characters in instruction state names ([#2334](https://github.com/google/adk-go/issues/2334)) ([534f30b](https://github.com/google/adk-go/commit/534f30b654787ac6fff386adac223be83c686eca))
+* **loggingplugin:** truncate text by character, not byte ([#2342](https://github.com/google/adk-go/issues/2342)) ([b388580](https://github.com/google/adk-go/commit/b388580ea8fd9562c8311a64bb7a61c8f67bcb85)), closes [#2341](https://github.com/google/adk-go/issues/2341)
+* **runner:** skip nil parts in response events and input blob extraction ([#2322](https://github.com/google/adk-go/issues/2322)) ([e374e9e](https://github.com/google/adk-go/commit/e374e9e5f4468adcbd3804a24f967fa4b4a498a8))
+* **session:** apply persistent changes only after database commit ([#2305](https://github.com/google/adk-go/issues/2305)) ([f887982](https://github.com/google/adk-go/commit/f8879822a83fdbe07ef323e7d6eeb1de0f31637d))
+* **telemetry:** leave no span processor running when New fails ([#2318](https://github.com/google/adk-go/issues/2318)) ([aacc2fa](https://github.com/google/adk-go/commit/aacc2fa46f06651dcf561eed94123f9d460a96dd)), closes [#2317](https://github.com/google/adk-go/issues/2317)
+
 ## [2.8.0](https://github.com/google/adk-go/compare/v2.7.1...v2.8.0) (2026-11-16)
 
 
